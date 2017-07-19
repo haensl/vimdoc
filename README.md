@@ -20,7 +20,7 @@ viwU
 ```
 
 ### View changelist
-```vim
+```bash
 :changes
 ```
 
@@ -33,7 +33,7 @@ g,
 ### Hex mode
 ```bash
 :%!xxd
-:%!xxd -r
+:%!xxd -r # back to normal mode
 ```
 
 ### Reselect last visual selection
@@ -77,4 +77,15 @@ fg # go back to vim
 ### Autoindent block
 ```bash
 =% # place cursor on brace and indent until closing brace
+```
+
+### Paste word under line in command
+```bash
+# with cursor over word
+ctrl+r ctrl+w
+```
+
+### Join lines
+```bash
+J
 ```
