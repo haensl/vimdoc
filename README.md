@@ -2,6 +2,17 @@
 
 A collection of vim commands & tricks.
 
+### Operate on tags (e.g. `<p>...</p>`)
+```bash
+cit # (change-in-tag)
+dat # (delete tag and contents)
+```
+
+### View manpage of command under cursor
+```bash
+K # (in command mode)
+```
+
 ### Revert document to an earlier/later version
 ```bash
 :earlier 15m
